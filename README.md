@@ -8,6 +8,8 @@ Chess Pieces and board: https://assetstore.unity.com/packages/3d/props/low-poly-
 You need to be registered in Unity. so download it, and launch it the first time, link your google account or register directly for a Free licence. 
 After that you can go to the asset store, login, and then add the package in your asset library. From there you can include the resource pack directly in your project from the IDE.
 
+Unity dotween library: https://dotween.demigiant.com/download.php
+
 ## Useful Links to use as follow ups of the course
 
 --- Chess Game
