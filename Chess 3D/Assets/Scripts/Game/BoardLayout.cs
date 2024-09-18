@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
+// This is an helper class to manage all the characteristics of the game based on the board we have, the pieces, the colors and so on
 public enum TeamColor
 {
     Black, White
@@ -14,7 +15,7 @@ public enum PieceType
     Pawn, Bishop, Knight, Rook, Queen, King
 }
 
-[CreateAssetMenu(menuName = "Scriptable Objects/Board/Layout")]
+[CreateAssetMenu(menuName = "Scriptable Objects/Board/Layout")] // This is a way to define a new object in the context menu of the editor (basically you are defining a script template)
 public class BoardLayout : ScriptableObject
 {
     [Serializable]

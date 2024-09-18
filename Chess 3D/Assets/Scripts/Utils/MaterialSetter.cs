@@ -1,5 +1,6 @@
 using UnityEngine;
 
+// This is a simple class that shows how to programmatically assign a material to an object via the mesh renderer property
 [RequireComponent(typeof(MeshRenderer))]
 public class MaterialSetter : MonoBehaviour
 {

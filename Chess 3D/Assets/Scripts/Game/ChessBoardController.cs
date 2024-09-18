@@ -2,6 +2,9 @@ using System;
 using System.Linq;
 using UnityEngine;
 
+// The controller is the game logic for this scene, remember that for this example we only use a single scene so the controller can be instantiated directly in the scene
+// For multi-level games or project you also have to define a persistent object in the first scene so it can act as a singleton for the entire project
+
 [RequireComponent(typeof(PieceCreator))]
 public class ChessBoardController : MonoBehaviour
 {

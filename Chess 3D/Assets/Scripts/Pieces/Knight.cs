@@ -5,6 +5,9 @@ public class Knight : Piece
 {
 	Vector2Int[] offsets = new Vector2Int[]
 	{
+		// This is interesting you are defining the offset a Knight can move to 
+		// imaging a starting point which is the occupied square vector in the grid system 
+		// which is inherited from the pice class
 		new Vector2Int(2, 1),
 		new Vector2Int(2, -1),
 		new Vector2Int(1, 2),

@@ -1,13 +1,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(SquareSelectorCreator))]
+[RequireComponent(typeof(SquareSelectorCreator))] // here you are asking unity to add a script of this type to the Board script whenever we assign this one to a Gameobject
 public class Board : MonoBehaviour
 {
     public const int BOARD_SIZE = 8;
 
-    [SerializeField] private Transform bottomLeftSquareTransform;
-    [SerializeField] private float squareSize;
+    [SerializeField] private Transform bottomLeftSquareTransform; // this is used as an anchor to calculate the various piece transformation in the scenegraph based on the board local space
+    [SerializeField] private float squareSize; // This is used as a value to calculate offsets between squares in the board grid
 
     private Piece[,] grid;
     private Piece selectedPiece;
@@ -40,6 +40,7 @@ public class Board : MonoBehaviour
 
     private Vector2Int CalculateCoordsFromPosition(Vector3 inputPosition)
     {
+        // Here the local scale is an extremely important factor as it changes the proportion of the board object in comparison to the global scale of the scene
         int x = Mathf.FloorToInt(transform.InverseTransformPoint(inputPosition).x / squareSize * transform.localScale.x) + BOARD_SIZE / 2;
         int y = Mathf.FloorToInt(transform.InverseTransformPoint(inputPosition).z / squareSize * transform.localScale.z) + BOARD_SIZE / 2;
         return new Vector2Int(x, y);

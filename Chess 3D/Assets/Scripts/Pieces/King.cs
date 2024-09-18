@@ -33,6 +33,7 @@ public class King : Piece
 
     private void AssignCastlingMoves()
     {
+        // Here you are checking if there is a rook to switch place with
         leftCastlingMove = new Vector2Int(-1, -1);
         rightCastlingMove = new Vector2Int(-1, -1);
         if (!hasMoved)
@@ -73,6 +74,7 @@ public class King : Piece
 
     private void AssignStandardMoves()
     {
+        // Here you move in every direction by 1
         float range = 1;
         foreach (var direction in directions)
         {

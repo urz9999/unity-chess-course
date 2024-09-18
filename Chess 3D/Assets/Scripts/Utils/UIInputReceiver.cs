@@ -9,6 +9,8 @@ public class UIInputReciever : InputReciever
     {
         foreach (var handler in inputHandlers)
         {
+            // This is a bit tricky: when you process the input you are defining 
+            // a Unity Action which is an anonymous function that calls the invoke method on the Unity event attached to this script
             handler.ProcessInput(Input.mousePosition, gameObject, () => onClick.Invoke());
         }
     }
