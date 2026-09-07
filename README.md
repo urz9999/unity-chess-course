@@ -1,3 +1,6 @@
+# Note for 2026 course:
+The project is develop *Unity 2022.3 LTS (2022.3.46f1)*. The simple way to use it is to download the new unity hub directly from the site, then clone the project in a folder of your choice. By importing the project from the hub, you'll be noticed about the right installation to read the project for your machine.
+
 # unity-chess-course
 A chess implementation in Unity3D for PhD 3D Graphics course - University of Pavia 2024
 
