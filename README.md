@@ -1,6 +1,35 @@
 # Note for 2026 course:
 The project is develop *Unity 2022.3 LTS (2022.3.46f1)*. The simple way to use it is to download the new unity hub directly from the site, then clone the project in a folder of your choice. By importing the project from the hub, you'll be noticed about the right installation to read the project for your machine.
 
+# link 2026
+
+Unity Channel
+https://www.youtube.com/@unity
+
+Lighting Essential
+https://www.youtube.com/watch?v=5rxMdiCkQGk
+
+Advanced Lighting
+https://www.youtube.com/watch?v=DlxuvvYZO4Q
+
+URP Lighting
+https://www.youtube.com/watch?v=okYhs6kQ0xw&list=PLFCJnp6TA6YDfq70zM5Ck1ktb7bFBMGB9
+
+Animation Basics
+https://www.youtube.com/watch?v=NHUP7CmYny8
+
+Animation Series
+https://www.youtube.com/watch?v=-FhvQDqmgmU&list=PLwyUzJb_FNeTQwyGujWRLqnfKpV-cj-eO
+
+Web Based
+https://phaser.io/
+
+How to customize sliders
+https://jaredamlin.medium.com/slide-on-into-sliders-in-unity-90db63bc49dc
+
+Multi Mesh in Unity
+https://www.youtube.com/watch?v=Qe66nlAD7os
+
 # unity-chess-course
 A chess implementation in Unity3D for PhD 3D Graphics course - University of Pavia 2024
 
